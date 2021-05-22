@@ -1,5 +1,12 @@
 Blogpost referencing the code present in this repository: https://medium.com/analytics-vidhya/building-hari-puttars-missing-invisibility-cloak-with-opencv-1d9ebbb73395 
 
+## Very Brief Introduction:
+
+* This repository has code that creates an "Invisibility Cloak" using openCV's Python wrapper.
+* The basic idea is to have a reference-background image as well as the color of the supposed invisibility cloak
+* Then, we read the video from the webcam and replace the pixels near the set-invisibility cloak color & replace those pixels with the corresponding pixels from the background image.
+* I've written some GUI code for better usability.
+
 ## Usage:
 
 $python run.py PATH\TO\BG\IMAGE.jpg
