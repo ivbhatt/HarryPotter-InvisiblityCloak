@@ -1,6 +1,6 @@
 Blogpost referencing the code present in this repository: https://medium.com/analytics-vidhya/building-hari-puttars-missing-invisibility-cloak-with-opencv-1d9ebbb73395 
 
-##Usage:
+## Usage:
 
 $python run.py PATH\TO\BG\IMAGE.jpg
 
